@@ -1,0 +1,187 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	background: #f5f5f5;
+}
+
+.paragraph {
+	font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 14px !important;
+	color: #444;
+}
+.container {
+	background: #fff;
+	box-shadow: 2px 6px 1px #f5f5f5;
+}
+
+header {
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	margin-right: auto;
+}
+
+#nav-logo {
+	display: flex;
+	height: 70px;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	padding: 0 10px;
+}
+
+input[type=search] {
+	padding: 0.6em;
+	width: 280px;
+	outline: 1.2px solid #efebe9;
+	border: none;
+}
+
+ul li a {
+	color: #757575;
+	text-decoration: none;
+}
+ul li a:hover {
+	color: #000;
+}
+
+.signup-login-container {
+	margin-top: 20px;
+}
+
+button[type="submit"] {
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0.6em 1em;
+	cursor: pointer;
+}
+
+.login {
+	background: #fff;
+	color: #000;
+	border: none;
+	outline: 1.2px solid #efebe9;
+}
+
+.login:hover {
+	background: #efebe9;
+}
+
+.signup {
+	background: #c62828;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+}
+
+.signup:hover {
+	background: #f44336;
+}
+
+.threeDot {
+	font-size: 30px;
+}
+
+.main {
+	width: 1100px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+
+.main p {
+	font-size: 12px;
+}
+
+.img {
+	width: 80px; 
+	height: 80px;
+	float: left;
+	margin-right: 15px;
+}
+
+section {
+	width: 750px;
+	background: #fff;
+	box-shadow: 2px 5px 8px #cfcfcf;
+	/*border-radius: 5px;*/
+	padding: 1em;
+}
+
+.sec-anchor {
+	color: #444;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.show-more:hover {
+	cursor: pointer;
+}
+
+.sec-anchor:hover {
+	text-decoration: underline;
+}
+
+.show-more {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.sec {
+	width: 750px;
+	background: #fff;
+	box-shadow: 2px 5px 8px #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+}
+
+.sec:hover {
+	background: #f5f5f5;
+	cursor: pointer;
+}
+
+.time {
+	float: right;
+	margin-top: 10px;
+	color: #444;
+}
+
+.section p {
+	font-size: 14px;
+	color: #444;
+	line-height: 1.4rem;
+}
+
+h3 {
+	 color: #6f6f6f
+}
+
+.small-btn:hover {
+	background: #efebe9;
+}
+
+.section-btn {
+	background: #fff;
+	border: 1px solid #efebe9;
+	padding: 2em 1.2em;
+
+}
+
+.section-btn:hover {
+	background: #efebe9;
+	cursor: pointer;
+}
